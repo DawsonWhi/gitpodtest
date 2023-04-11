@@ -1,3 +1,3 @@
 # gitpodtest
 
-gitpod.io/#https://github.com/dawsonwhi/gitpodtest
+https://gitpod.io/#https://github.com/dawsonwhi/gitpodtest

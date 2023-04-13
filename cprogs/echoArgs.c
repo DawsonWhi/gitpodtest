@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(int argc, char **argv) { 
-    printf("%d\n", argc);
-    for(int i = 0; i < 4; i++)
+int main(int n, char* args[]) {
+	printf("number of arguments: %d\n", n);
+    for(int i = 0; i < args.length; i++)
     {
-        printf("%p\n", argv);
+        
     }
 }

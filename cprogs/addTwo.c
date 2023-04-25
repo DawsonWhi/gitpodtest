@@ -5,6 +5,11 @@ int main(int n, char* args[]){
     int num1;
     int num2;
 
+        if (n != 3) {
+        printf("usage: ./addTwo int int\n");
+        return -1;
+    }
+
     printf("Number of command line arguments is %d\n", n);
     num1 = atoi(args[1]);
     num2 = atoi(args[2]);
